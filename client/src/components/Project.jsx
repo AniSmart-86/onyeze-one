@@ -24,7 +24,7 @@ const navigate = useNavigate();
     <section className='mt-10'>
         <div className='flex flex-col justify-center items-center'>
             <h1 className={`${styles.sectionHeadText}`}>Latest <span className='text-[#915eff]'>Works</span></h1>
-            <p className='font-semibold md:text-xl text-gray-400'>Recent Innovations in Sustainable Furniture Design</p>
+            <p className='font-semibold md:text-xl text-gray-400 text-center'>Recent Innovations in Sustainable Furniture Design</p>
         
 
         <div className='w-full md:grid grid-cols-4 px-10 gap-y-12 sm:px-0'>
