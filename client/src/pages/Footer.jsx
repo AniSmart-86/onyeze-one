@@ -10,16 +10,16 @@ const Footer = () => {
             <h3 className='font-bold text-md text-orange-700'>OnyEze <span className='text-white-100'>One</span></h3>
             <p className='text-xs'>Your input is important to us, <br /> and we’re committed <br />
             to providing you with the support you need. <br />Connect with us on social media's.</p>
-            <div className='flex gap-3 text-xl'>
+            <div className='flex gap-4 text-xl'>
             <a href="https://www.instagram.com/oyenzeonefurniture/profilecard/?igsh=ejIyaGhmOHJiampt">
             
-            <FaInstagram/>
+            <FaInstagram className='size-8'/>
             </a>
             <a href="https://www.facebook.com/share/1AtfY1XCng/">
-            <FaFacebook/>
+            <FaFacebook className='size-8'/>
             </a>
             <a href="https://wa.me/2349072788526">
-            <FaWhatsapp/>
+            <FaWhatsapp className='size-8'/>
             </a>
             </div>
         </div>

@@ -14,8 +14,10 @@ function App() {
 
   return (
     <>
+    <div>
+
     <NavBar />
-     <main className='mx-2'>
+     <main className='px-1'>
 <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/about' element={<About/>}/>
@@ -29,6 +31,7 @@ function App() {
 
        <FaWhatsapp className='text-4xl bg-green-600 rounded-md bottom-28 fixed right-8'/>
        </a>
+    </div>
     </>
   )
 }

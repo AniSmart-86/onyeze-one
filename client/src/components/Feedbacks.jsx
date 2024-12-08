@@ -9,7 +9,7 @@ const Feedbacks = () => {
   return (
  <section>
   <div className="flex flex-col justify-center items-center">
-    <h1 className={`${styles.sectionHeadText}`}>Customer's <span className='text-[#915eff]'>Review</span> </h1>
+    <h1 className={`${styles.sectionHeadText} text-center`}>Customer's <br /> <span className='text-[#915eff]'>Review</span> </h1>
     <div className='w-full md:w-3/5 h-auto flex flex-row justify-center items-center overflow-auto scrollbar-none mt-14'>
       {
         testimonials.map((item)=>(

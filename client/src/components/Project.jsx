@@ -27,7 +27,7 @@ const navigate = useNavigate();
             <p className='text-sm md:text-xl text-gray-400 text-center'>Recent Innovations in Sustainable <br /> Furniture Design</p>
         
 
-        <div className='w-full md:grid grid-cols-4 px-5 gap-y-12 sm:px-0'>
+        <div className='w-full lg:grid grid-cols-4 px-0 gap-y-12'>
             {
                 projects.slice(0,10).map((item)=>(
                   
@@ -38,11 +38,11 @@ const navigate = useNavigate();
                       whileInView={{ opacity: 1, x: 0,
                         scale: 1.1,
                        transition:{duration: 2} }}
-                       className='flex flex-col justify-center items-center'
+                       className='flex flex-col md:py-8 justify-center items-center'
                       >
                         <img className='w-full md:w-2/3 rounded-xl' src={item.image} alt="" />
                         <p className='font-semibold orange-text-gradient'>{item.name}</p>
-                        <p className='text-xs green-text-gradient'>{item.description}</p>
+                        <p className='text-xs md:px-4 green-text-gradient text-center'>{item.description}</p>
                   </motion.div>
                     </div>
               

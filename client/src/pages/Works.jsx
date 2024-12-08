@@ -13,7 +13,7 @@ const Works = () => {
     </section>
     <div className='w-full flex flex-col justify-center items-center mt-10'>
             <h1 className={`${styles.sectionHeadText}`}>Explore <span className='text-[#915eff]'>Our Works</span></h1>
-            <p className='font-semibold md:text-xl text-gray-400'>Recent Innovations in Sustainable Furniture Design</p>
+            <p className='text-center md:text-xl text-gray-400'>Recent Innovations in Sustainable <br /> Furniture Design</p>
         
 
         <div className='w-full md:grid grid-cols-4 px-0 gap-y-12 sm:px-0'>

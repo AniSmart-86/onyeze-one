@@ -12,6 +12,11 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+body{
+justify-content: center;
+align-items: center;
+width: 97%;
+}
 
 .active hr{
   display: block;
