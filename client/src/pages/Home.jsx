@@ -7,7 +7,7 @@ import Intouch from '../components/Intouch'
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
         <Hero />
         <Service />
         <MyProject />

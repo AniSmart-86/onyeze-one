@@ -3,8 +3,13 @@ import { services } from '../constants'
 import { styles } from '../styles'
 import img1 from '../assets/img1 (19).jpg'
 import {FaPhone } from 'react-icons/fa6'
+import { useNavigate } from 'react-router-dom'
+
 
 const Service = () => {
+    
+    const navigate = useNavigate();
+
   return (
   <section className='m-10'>
     <div className='lg:inline-flex '>
@@ -59,7 +64,8 @@ const Service = () => {
 <div className='hidden lg:block w-1 mx-1 h-24 bg-orange-700'  />
 <p className="text-md">We Are Available 24/7 <br /> Get In Touch With Us Today</p>
 <div className='hidden lg:block w-1 mx-1 h-24 bg-orange-700'  />
-<button className='green-pink-gradient py-3 px-8 rounded-full text-xs md:text-sm'>BOOK APPOINTMENT</button>
+
+<button className='green-pink-gradient py-3 px-8 rounded-full text-xs md:text-sm' onClick={()=>{navigate('/contact'); scrollTo(0,0)}}>BOOK APPOINTMENT</button>
     </div>
   </section>
   )

@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      scrollbarWidth: {
+        none: 'none',
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -26,5 +29,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 };

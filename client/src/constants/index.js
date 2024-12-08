@@ -1,8 +1,8 @@
 import img1 from '../assets/img1 (1).jpg'
 import img2 from '../assets/img1 (2).jpg'
-import img3 from '../assets/img1 (3).jpg'
-import img4 from '../assets/img1 (4).jpg'
-import img5 from '../assets/img1 (5).jpg'
+// import img3 from '../assets/img1 (3).jpg'
+// import img4 from '../assets/img1 (4).jpg'
+// import img5 from '../assets/img1 (5).jpg'
 import img6 from '../assets/img1 (6).jpg'
 import img7 from '../assets/img1 (7).jpg'
 import img8 from '../assets/img1 (8).jpg'
@@ -33,8 +33,8 @@ import img32 from '../assets/img1 (32).jpg'
 import img33 from '../assets/img1 (33).jpg'
 import img34 from '../assets/img1 (34).jpg'
 import img35 from '../assets/img1 (35).jpg'
-import img36 from '../assets/img1 (36).jpg'
-import img37 from '../assets/img1 (37).jpg'
+// import img36 from '../assets/img1 (36).jpg'
+// import img37 from '../assets/img1 (37).jpg'
 import img38 from '../assets/img1 (38).jpg'
 
 
@@ -161,157 +161,157 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
         id: 1,
         image: img1,
-      name: "Sleeper Sofa",
-      description: "A sofa designed with a hidden bed, perfect for guest rooms or small apartments.",
+      name: "Children's Storage Case Bed",
+      description: "Designed to provide ample storage and a cozy sleeping area, this bed is perfect for kids' bedrooms, nurseries, and playrooms.",
 
        
     },
     {
         id: 2,
      image: img2,
-      name: "Armoire:",
+      name: "Children's Storage Case Bed",
       description:
-        " A large, ornate cabinet used for storing clothing, linens, or other household items.",
+        "Designed to provide ample storage and a cozy sleeping area, this bed is perfect for kids' bedrooms, nurseries, and playrooms.",
       
     },
-    {
-        id: 3,
-        image: img3,
-      name: "Accent Chair",
-      description:
-        "A stylish chair designed to add a pop of color and texture to a room.",
-    },
-    {
-        id: 4,
-        image: img4,
-      name: "Bar Stool",
-      description:
-        "A high stool designed for seating at a bar or counter.",
-    },
-    {
-        id: 5,
-        image: img5,
-      name: "Bench",
-      description: " A long, low seat designed for multiple people to sit on",
-    },
+    // {
+    //     id: 3,
+    //     image: img3,
+    //   name: "Accent Chair",
+    //   description:
+    //     "A stylish chair designed to add a pop of color and texture to a room.",
+    // },
+    // {
+    //     id: 4,
+    //     image: img4,
+    //   name: "Bar Stool",
+    //   description:
+    //     "A high stool designed for seating at a bar or counter.",
+    // },
+    // {
+    //     id: 5,
+    //     image: img5,
+    //   name: "",
+    //   description: " A long, low seat designed for multiple people to sit on",
+    // },
     {
         id: 6,
         image: img6,
-      name: " Bookcase",
+      name: "Wine Cabinet",
       description:
-        " A shelving unit designed for storing books, decorative objects, and other personal items.",
+        " Designed to provide a sophisticated and temperature-controlled environment for your prized wine collection, this cabinet is perfect for wine enthusiasts and connoisseurs",
     },
     {
         id: 7,
         image: img7,
-      name: "Bookshelf",
+      name: "Padding Bed",
       description:
-        " A wall-mounted or freestanding shelving unit designed for storing books.",
+        "Experience the ultimate in comfort and support with our padding bed. Designed to provide a restful and rejuvenating sleep experience, this bed features a thick layer of padding that cradles your body and promotes a deep and restful sleep.",
     },
     {
         id: 8,
         image: img8,
-      name: " Buffet",
+      name: "T-Profile Door",
       description:
-        "A sideboard or cabinet designed for serving and storing food, dishes, and utensils.",
+        "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 9,
         image: img9,
-      name: "Cabinet",
+      name: "T-Profile Door",
       description:
-        " A piece of furniture with shelves, drawers, or doors used for storing and organizing household items.",
+        "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 10,
         image: img10,
-      name: "Chaise Lounge",
+      name: "Media Console",
       description:
-        "A long, comfortable chair designed for reclining and relaxing.",
+        "A cabinet or shelving unit designed for storing and displaying media devices, such as TVs, soundbars, and gaming consoles.",
     },
     {
         id: 11,
         image: img11,
-      name: "Coffee Table",
+      name: "Media Console",
       description:
-        "A low table designed for placing drinks, snacks, and other items in a living room.",
+        "A cabinet or shelving unit designed for storing and displaying media devices, such as TVs, soundbars, and gaming consoles.",
     },
     {
         id: 12,
         image: img12,
-      name: "Console Table:",
+      name: "T-Profile Door",
       description:
-        "A narrow table designed for placing behind a sofa or in a hallway.",
+        "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 13,
         image: img13,
-      name: "Daybed",
+      name: "T-Profile Door",
       description:
-        "A versatile piece of furniture that serves as both a sofa and a bed.",
+        "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 14,
         image: img14,
-      name: "Desk",
+      name: "T-Profile Door",
       description:
-        "A piece of furniture with a flat surface and drawers or shelves used for working, studying, or writing.",
+        "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 15,
         image: img15,
-      name: "Dining Chair",
+      name: "T-Profile Door",
       description:
-        "A chair designed for seating at a dining table.",
+        "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 16,
         image: img16,
-      name: "Dining Table",
+      name: "Door",
       description:
-        "A table designed for eating meals with family and friends.",
+        "With a durable finish and easy-to-clean design, this door requires minimal upkeep, ensuring it remains looking its best for years to come.",
     },
     {
         id: 17,
         image: img17,
-      name: "End Table",
+      name: "Kitchen Cabinet",
       description:
-        "A small table designed for placing beside a sofa or armchair.",
+        "Crafted with precision and attention to detail, our kitchen cabinets are designed to transform your culinary space into a warm and inviting hub of activity.",
     },
     {
         id: 18,
         image: img18,
-      name: " Executive Desk",
+      name: "TV Stand",
       description:
-        " A large, impressive desk designed for a high-level executive or professional.",
+        "  Crafted with precision and attention to detail, our TV stands are designed to enhance your viewing experience and add a touch of sophistication to your living room.",
     },
     {
         id: 19,
         image: img19,
-      name: " File Cabinet",
+      name: "Floated Panel",
       description:
-        " A cabinet designed for storing and organizing files, documents, and other office supplies.",
+        "Floated panel constructing",
     },
     {
         id: 20,
         image: img20,
-      name: "Futon",
+      name: "Floated Panel",
       description:
-        " A versatile piece of furniture that serves as both a sofa and a bed.",
+        "Floated panel for padding bed",
     },
     {
         id: 21,
         image: img21,
-      name: "Gaming Chair",
+      name: "HDF Bed Frame",
       description:
-        "A specialized chair designed for comfort and support during long gaming sessions.",
+        "Crafted from high-density fiberboard (HDF), this bed frame is designed to provide a sturdy and long-lasting sleeping solution.",
     },
     {
         id: 22,
         image: img22,
-      name: "Hutch",
+      name: "Padding Bed",
       description:
-        "A tall, ornate cabinet designed for storing and displaying dishes, glassware, and other household items.",
+        "Experience the ultimate in comfort and support with our padding bed. Designed to provide a restful and rejuvenating sleep experience, this bed features a thick layer of padding that cradles your body and promotes a deep and restful sleep.",
     },
     {
         id: 23,
@@ -323,105 +323,105 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
         id: 24,
         image: img24,
-      name: "Lamp Table",
+      name: "Padding Bed",
       description:
-        "A small table designed for holding a lamp, decorative objects, and other personal items.",
+        "Our padding bed is easy to clean and maintain, ensuring a healthy and hygienic sleep environment.",
     },
     {
         id: 25,
         image: img25,
-      name: "Loveseat",
+      name: "Padding Bed",
       description:
-        " A small sofa designed for seating two people.",
+        " Our padding bed is easy to clean and maintain, ensuring a healthy and hygienic sleep environment.",
     },
     {
         id: 26,
         image: img26,
-      name: "Media Console",
+      name: "HDF Bed Frame",
       description:
-        "A cabinet or shelving unit designed for storing and displaying media devices, such as TVs, soundbars, and gaming consoles.",
+        "Crafted from high-density fiberboard (HDF), this bed frame is designed to provide a sturdy and long-lasting sleeping solution.",
     },
     {
         id: 27,
         image: img27,
-      name: "Nightstand",
+      name: "HDF Flush Door",
       description:
-        "A small table designed for placing beside a bed, typically used for holding lamps, books, and other personal items.",
+        "Experience the perfect blend of style, durability, and affordability with our HDF flush door. Crafted from high-density fiberboard (HDF), this door is designed to provide a sleek and modern look that complements any interior décor.",
     },
     {
         id: 28,
         image: img28,
-      name: "Office Chair",
+      name: "Mini Kitchen Cabinet",
       description:
-        " A chair designed for comfort and support during long periods of sitting at a desk or workstation.",
+        "Experience the perfect blend of style, functionality, and compactness with our mini kitchen cabinet. Designed to provide ample storage and counter space in small kitchens, this cabinet is ideal for apartments, condos, and tiny homes.",
     },
     {
         id: 29,
         image: img29,
-      name: "Ottoman",
+      name: "Laptop Pull-Out Pit Stand",
       description:
-        " A low, cushioned stool or footrest designed for comfort and relaxation.",
+        "Experience the ultimate in comfort and productivity with our innovative laptop pull-out pit stand. Designed to provide a comfortable and ergonomic working experience, this stand is perfect for home offices, studios, and workplaces.",
     },
     {
         id: 30,
         image: img30,
-      name: "Patio Furniture",
+      name: "Reception Table",
       description:
-        " Outdoor furniture designed for relaxing and entertaining on a patio, deck, or balcony.",
+        "Create a lasting impression on your clients and visitors with our stunning reception table. Designed to provide a warm and welcoming atmosphere, this table is perfect for reception areas, lobbies, and waiting rooms.",
     },
     {
         id: 31,
         image: img31,
-      name: "Pillow",
+      name: "Reception Table",
       description:
-        "A medium-sized bed designed for two people, typically measuring 60 inches wide and 80 inches long.",
+        "Create a lasting impression on your clients and visitors with our stunning reception table. Designed to provide a warm and welcoming atmosphere, this table is perfect for reception areas, lobbies, and waiting rooms.",
     },
     {
         id: 32,
         image: img32,
-      name: " Queen-Size Bed",
+      name: "Floated Panel",
       description:
-        "A medium-sized bed designed for two people, typically measuring 60 inches wide and 80 inches long.",
+        "Add a touch of sophistication and elegance to your space with our floated panel. Designed to provide a sleek and modern look, this panel is perfect for creating a unique and stylish feature wall.",
     },
     {
         id: 33,
         image: img33,
-      name: "Recliner",
+      name: "Pillar Design",
       description:
-        "A chair designed for reclining and relaxing, often featuring a footrest and adjustable headrest.",
+        "Add a touch of classic elegance to your space with our stunning pillar design. Inspired by ancient architectural elements, this pillar is perfect for creating a dramatic entrance, defining different areas of a room, or simply adding a decorative touch.",
     },
     {
         id: 34,
         image: img34,
-      name: "Sectional Sofa:",
-      description: " A versatile sofa designed in sections, allowing for customization and flexibility in a living room or family room.",
+      name: "Classic Design",
+      description: "Timeless and sophisticated design that complements any interior style.",
     },
     {
         id: 35,
         image: img35,
-      name: "Side Table",
-      description: "A small table designed for placing beside a sofa, armchair, or bed.",
+      name: "Jewelry Cabinet",
+      description: "Keep your treasured jewelry collection organized, safe, and beautifully displayed with our exquisite jewelry cabinet. Designed to provide ample storage and a touch of elegance, this cabinet is perfect for jewelry enthusiasts and collectors.",
     },
-    {
-        id: 36,
-        image: img36,
-      name: "Sofa Bed",
-      description:
-        " A sofa designed with a convertible bed, ideal for small spaces or guest rooms.",
-    },
-    {
-        id: 37,
-        image: img37,
-      name: "Storage Bed",
-      description:
-        "A bed designed with built-in storage drawers, shelves, or cabinets for maximizing space.",
-    },
+    // {
+    //     id: 36,
+    //     image: img36,
+    //   name: "Sofa Bed",
+    //   description:
+    //     " A sofa designed with a convertible bed, ideal for small spaces or guest rooms.",
+    // },
+    // {
+    //     id: 37,
+    //     image: img37,
+    //   name: "Storage Bed",
+    //   description:
+    //     "A bed designed with built-in storage drawers, shelves, or cabinets for maximizing space.",
+    // },
     {
         id: 38,
         image: img38,
-      name: "TV Stand",
+      name: "Children's Storage Case Bed",
       description:
-        "A cabinet or shelving unit designed for holding a television, media devices, and other living room essentials.",
+        " Designed to provide ample storage and a cozy sleeping area, this bed is perfect for kids' bedrooms, nurseries, and playrooms.",
     },
   ];
   
