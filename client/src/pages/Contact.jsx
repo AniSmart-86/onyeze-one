@@ -59,12 +59,12 @@ const sendEmail = (e) => {
 
   return (
     <>
-    <section className='flex fllex-col justify-center items-center h-60 contact mt-20'>
+    <section className='flex fllex-col justify-center items-center h-60 contact mt-10'>
     <h1 className={`${styles.heroHeadText}`}>Contact <span className='text-[#915eff]'>Us</span></h1>
  
 </section>
 
-<section className='mt-20 px-20 flex flex-col justify-center items-center violet-gradient rounded-xl p-10'>
+<div className='mt-20 flex flex-col justify-center items-center violet-gradient rounded-xl p-10'>
  
     <h1 className={`${styles.sectionHeadText}`}>Let's <span className='text-orange-600'>Connect</span></h1>
     <p className={`${styles.sectionSubText}`}>Send a Message</p>
@@ -101,7 +101,7 @@ const sendEmail = (e) => {
       <img className='rounded-full' src={img2} alt="" />
       </div>
 
-      <form ref={form} onSubmit={sendEmail} className='w-full flex flex-col justify-center items-center bg-white-100 text-black h-auto px-10 pt-10 rounded-3xl' action="">
+      <form ref={form} onSubmit={sendEmail} className='w-full flex flex-col justify-center items-center bg-white-100 text-black h-auto p-10 rounded-3xl' action="">
 
         <h2 className='font-bold text-2xl'>Get In Touch</h2>
         <p className='text-sm text-gray-400 mb-2'>What do you have for us today??</p>
@@ -121,7 +121,7 @@ const sendEmail = (e) => {
   
 
   
-  </section>
+  </div>
   <div ><iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=4%20tomato%20market,%20opposite%20first%20bank,%20dei-dei,%20Abuja,%20FCT,%20Nigeria+(OnyEze%20One%20Furniture)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe></div>
 
     </>

@@ -62,8 +62,8 @@ const sendEmail = (e) => {
 
 
   return (
- <section className='mt-20 flex flex-col justify-center items-center violet-gradient rounded-xl p-10'>
- 
+ <div className='mt-20 p-10 flex flex-col justify-center'>
+  <div className="flex flex-col justify-center items-center violet-gradient rounded-xl p-10">
     <h1 className={`${styles.sectionHeadText}`}>Let's <span className='text-orange-600'>Connect</span></h1>
     <p className={`${styles.sectionSubText}`}>Send a Message</p>
 
@@ -100,7 +100,7 @@ const sendEmail = (e) => {
       </div>
 
       <div className=''>
-      <form ref={form} onSubmit={sendEmail} className='flex flex-col items-center bg-white-100 text-black h-auto px-10 pt-10 rounded-3xl' action="">
+      <form ref={form} onSubmit={sendEmail} className='flex flex-col items-center bg-white-100 text-black h-auto p-10 rounded-3xl' action="">
 
         <h2 className='font-bold text-2xl'>Get In Touch</h2>
         <p className='text-sm text-gray-400 mb-2'>What do you have for us today??</p>
@@ -116,7 +116,9 @@ const sendEmail = (e) => {
       </div>
     </div>
 
- </section>
+
+  </div>
+ </div>
   )
 }
 
