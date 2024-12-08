@@ -18,7 +18,7 @@ const Works = () => {
 
         <div className='w-full md:grid grid-cols-4 px-0 gap-y-12 sm:px-0'>
             {
-                projects.map((item)=>(
+                projects.map((item,index)=>(
                     
                     <div className='py-3 m-6 border black-gradient rounded-3xl shadow-[#915eff] shadow-xl z-10'>
                         <motion.div
@@ -26,6 +26,7 @@ const Works = () => {
                         whileInView={{ opacity: 1, x: 0,
                           scale: 1.1,
                          transition:{duration: 2} }}
+                         key={index}
                          className='flex flex-col justify-center items-center p-6 '
                         >
                         <img className='w-full md:w-2/3 rounded-xl' src={item.image} alt="" />

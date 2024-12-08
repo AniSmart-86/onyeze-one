@@ -7,13 +7,14 @@ import Intouch from '../components/Intouch'
 
 const Home = () => {
   return (
-    <div className=''>
+    <section>
         <Hero />
         <Service />
         <MyProject />
         <Feedbacks />
         <Intouch />
-      </div>
+      
+    </section>
   )
 }
 

@@ -9,7 +9,7 @@ const NavBar = () => {
   const [showMenu,setShowMenu] = useState(false)
   return (
     <>
-    <header className={`${styles.paddingX} flex justify-between items-center border-b-slate-50 fixed top-0 right-0 left-0 h-auto py-2 z-50 black-gradient text-white`}>
+    <header className={`${styles.paddingX} flex justify-between items-center border-b-2 fixed top-0 right-0 left-0 h-auto py-2 z-50 black-gradient text-white`}>
         <img className='w-12 rounded-3xl' src={logo} alt="Onyeze logo" />
         
 <nav className='-translate-x-1/2 -translate-y-1/2'>
