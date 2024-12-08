@@ -9,8 +9,8 @@ const NavBar = () => {
   const [showMenu,setShowMenu] = useState(false)
   return (
     <>
-    <header className={`${styles.paddingX} flex justify-between items-center border-b-2 fixed top-0 right-0 left-0 h-auto py-2 z-50 black-gradient text-white`}>
-        <img className='w-14 rounded-full' src={logo} alt="Onyeze logo" />
+    <header className={`${styles.paddingX} flex justify-between items-center border-b-slate-50 fixed top-0 right-0 left-0 h-auto py-2 z-50 black-gradient text-white`}>
+        <img className='w-12 rounded-3xl' src={logo} alt="Onyeze logo" />
         
 <nav className=''>
 
@@ -38,7 +38,7 @@ const NavBar = () => {
 </nav>
         
 
-<FaBars onClick={()=>setShowMenu(true)} className=' cursor-pointer text-white size-8 md:hidden'/>
+<FaBars onClick={()=>setShowMenu(true)} className=' cursor-pointer text-white size-6 md:hidden'/>
     </header>
 
     <div className={`${showMenu ? 'fixed opacity-100 w-72 h-1/2' : 'opacity-0 h-0 w-0 translate-y-80'} md:hidden right-0 top-10 bottom-0 z-20 bg-[#662be7] rounded-2xl text-white transition-all duration-1000 ease-in-out`}>

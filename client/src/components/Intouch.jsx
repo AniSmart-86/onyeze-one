@@ -62,13 +62,13 @@ const sendEmail = (e) => {
 
 
   return (
- <section className='mt-20 h-42'>
+ <section className='mt-20 w-full p-0'>
   <div className="flex flex-col justify-center items-center violet-gradient rounded-xl p-10">
     <h1 className={`${styles.sectionHeadText}`}>Let's <span className='text-orange-600'>Connect</span></h1>
     <p className={`${styles.sectionSubText}`}>Send a Message</p>
 
-    <div className='md:flex flex-wrap justify-evenly items-center md:w-5/6 black-gradient rounded-3xl p-10 mt-5'>
-      <div className='flex flex-col gap-8'>
+    <div className='flex flex-wrap justify-center items-center md:w-full black-gradient rounded-3xl p-10 mt-5 gap-2 md:gap-6'>
+      <div className='flex flex-col justify-center gap-8'>
         <p className='text-xs text-gray-400'>We’d love to hear from you! Whether you have questions, <br /> feedback, or need assistance, our team is here to help. <br /> Reach out to us via email or give us a call <br /> or fill out the contact form on our website. We’ll do our best <br/> to get back to you as quickly as possible. <br/> Your input is important to us, and we’re committed <br/> to providing you with the support you need. </p>
       
       <div className='flex justify-center items-center gap-3 '>
@@ -96,7 +96,7 @@ const sendEmail = (e) => {
       
       </div>
       <div>
-      <img className='rounded-xl my-5 md:hidden' src={img2} alt="" />
+      <img className='rounded-full' src={img2} alt="" />
       </div>
 
       <div className=''>
