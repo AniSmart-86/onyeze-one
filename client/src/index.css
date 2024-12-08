@@ -13,9 +13,8 @@
   color-scheme: dark;
 }
 body{
-justify-content: center;
-align-items: center;
-width: 100%;
+position: relative;
+height: 100vh;
 }
 
 .active hr{

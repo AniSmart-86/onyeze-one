@@ -12,7 +12,7 @@ const NavBar = () => {
     <header className={`${styles.paddingX} flex justify-between items-center border-b-slate-50 fixed top-0 right-0 left-0 h-auto py-2 z-50 black-gradient text-white`}>
         <img className='w-12 rounded-3xl' src={logo} alt="Onyeze logo" />
         
-<nav className=''>
+<nav className='-translate-x-1/2 -translate-y-1/2'>
 
         <ul className='md:flex flex-row gap-4 hidden md:text-xl'>
             <NavLink className={`relative hover:text-orange-400 transition-all duration-700`} to="/">

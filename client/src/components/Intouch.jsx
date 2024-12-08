@@ -62,8 +62,8 @@ const sendEmail = (e) => {
 
 
   return (
- <section className='mt-20 w-full p-0'>
-  <div className="flex flex-col justify-center items-center violet-gradient rounded-xl p-10">
+ <section className='mt-20 flex flex-col justify-center items-center violet-gradient rounded-xl p-10'>
+ 
     <h1 className={`${styles.sectionHeadText}`}>Let's <span className='text-orange-600'>Connect</span></h1>
     <p className={`${styles.sectionSubText}`}>Send a Message</p>
 
@@ -116,8 +116,6 @@ const sendEmail = (e) => {
       </div>
     </div>
 
-
-  </div>
  </section>
   )
 }

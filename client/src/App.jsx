@@ -17,20 +17,20 @@ function App() {
     <div>
 
     <NavBar />
-     <main className='px-1'>
+     <div className='mx-5 sm:mx-[8%]'>
 <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/about' element={<About/>}/>
   <Route path='/works' element={<Works/>}/>
   <Route path='/contact' element={<Contact/>}/>
 </Routes>
-     </main>
      <hr className='pb-4' />
        <Footer/>
        <a href="https://wa.me/2349072788526">
 
        <FaWhatsapp className='text-4xl bg-green-600 rounded-md bottom-28 fixed right-8'/>
        </a>
+     </div>
     </div>
     </>
   )

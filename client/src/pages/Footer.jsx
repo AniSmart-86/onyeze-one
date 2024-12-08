@@ -25,14 +25,14 @@ const Footer = () => {
         </div>
         <div className='flex flex-col gap-2 mb-3'>
             <h5 className='font-medium text-md green-text-gradient'>Useful Links</h5>
-            <Link className='text-sm hover:text-orange-600 transition-all duration-1000'>About Us</Link>
-            <Link className='text-sm hover:text-orange-600 transition-all duration-1000'>CAC Certificate</Link>
+            <Link to='/about' className='text-sm hover:text-orange-600 transition-all duration-1000'>About Us</Link>
+            <Link to='/' className='text-sm hover:text-orange-600 transition-all duration-1000'>CAC Certificate</Link>
             <Link className='text-sm hover:text-orange-600 transition-all duration-1000'>Legal Notice</Link>
         </div>
         <div className='flex flex-col gap-2 mb-3'>
             <h5 className='green-text-gradient text-md font-bold'>Support</h5>
             <Link className='text-sm hover:text-orange-600 transition-all duration-1000'>Help Center</Link>
-            <Link className='text-sm hover:text-orange-600 transition-all duration-1000'>Contact Us</Link>
+            <Link to='/contact' className='text-sm hover:text-orange-600 transition-all duration-1000'>Contact Us</Link>
             <Link className='text-sm hover:text-orange-600 transition-all duration-1000'>FAQ</Link>
         </div>
 
