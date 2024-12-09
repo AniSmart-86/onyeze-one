@@ -28,7 +28,7 @@ function App() {
        <Footer/>
        <a href="https://wa.me/2349072788526">
 
-       <FaWhatsapp className='text-4xl bg-green-600 rounded-md bottom-28 fixed right-8'/>
+       <FaWhatsapp className='text-4xl bg-green-600 rounded-md bottom-52 fixed right-8'/>
        </a>
      </div>
     </div>
