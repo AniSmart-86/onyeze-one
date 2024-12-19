@@ -18,14 +18,10 @@ function App() {
 
   return (
     <>
-    <div>
+
     <NavBar />
     <ToastContainer />
-    <Routes>
-
-    </Routes>
-
-
+   
      <div className=''>
 <Routes>
   <Route path='/' element={<Home/>}/>
@@ -34,8 +30,6 @@ function App() {
   <Route path='/contact' element={<Contact/>}/> 
     <Route path='/admin' element={<Admin/>}/>
   <Route path='/login' element={<Login/>}/>
-
- 
 
 </Routes>
 {
@@ -48,7 +42,7 @@ function App() {
        </div>
 }
      </div>
-    </div>
+  
     </>
   )
 }
