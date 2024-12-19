@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:3000/api/admin"; // Backend URL
+const API_BASE = "https://onyeze-one-api.onrender.com/api/admin"; // Backend URL
 
 export const getProducts = async () => {
   const response = await axios.get(`${API_BASE}/get`);

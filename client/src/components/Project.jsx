@@ -60,7 +60,7 @@ fetchProducts();
                        className='flex flex-col md:py-8 justify-center items-center'
                       >
                         <img className='w-full md:w-2/3 rounded-xl' src={item.image} alt="" />
-                        <img className='w-full md:w-2/3 rounded-xl' src={`http://localhost:3000/${item.image}`} alt="" />
+                        <img className='w-full md:w-2/3 rounded-xl' src={`https://onyeze-one-api.onrender.com/${item.image}`} alt="" />
                         <p className='font-semibold orange-text-gradient'>{item.title}</p>
                         <p className='text-xs md:px-4 green-text-gradient text-center'>{item.description}</p>
                   </motion.div>

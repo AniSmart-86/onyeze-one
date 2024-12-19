@@ -14,12 +14,12 @@ const WorkList = ({ products, onEdit, onDelete }) => {
       whileInView={{ opacity: 1, x: 0,
         scale: 1.1,
        transition:{duration: 2} }}
-       key={item.id}
+       key={item._id}
        className='flex flex-col md:py-8 justify-center items-center'
       >
 
           <img
-            src={`http://localhost:3000/${item.image}`}
+            src={`https://onyeze-one-api.onrender.com/${item.image}`}
             alt={item.title}
             className='w-full md:w-4/4 rounded-xl '
           />

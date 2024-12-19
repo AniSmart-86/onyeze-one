@@ -22,7 +22,7 @@ if(token){
 
         try {
             
-            const {data} = await axios.post('http://localhost:3000/api/admin/login', {email, password});
+            const {data} = await axios.post('https://onyeze-one-api.onrender.com/api/admin/login', {email, password});
 
            
 

@@ -47,7 +47,7 @@ const Works = () => {
                          className='flex flex-col justify-center items-center p-6'
                         >
                         <img className='w-full md:w-2/3 rounded-xl' src={item.image} alt="" />
-                        <img className='w-full md:w-2/3 rounded-xl' src={`http://localhost:3000/${item.image}`} alt="" />
+                        <img className='w-full md:w-2/3 rounded-xl' src={`https://onyeze-one-api.onrender.com/${item.image}`} alt="" />
                         <p className='font-semibold orange-text-gradient'>{item.title}</p>
                         <p className='text-xs green-text-gradient'>{item.description}</p>
                     </motion.div>
