@@ -110,7 +110,7 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
       testimonial:
         "I recently purchased a custom dining table from OnyEze One and I couldn't be happier! The attention to detail and craftsmanship are exceptional. Highly recommend",
-      name: "-Emily R",
+     title: "-Emily R",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -118,7 +118,7 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
       testimonial:
         "I ordered a bespoke sofa and armchair from OnyEze One and they exceeded my expectations! The quality, comfort, and style are all top-notch. Thank you",
-      name: "-David K",
+     title: "-David K",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -126,7 +126,7 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
       testimonial:
         "I commissioned OnyEze One to create a custom wooden headboard for my bedroom. The result is a stunning piece of art that I'll treasure for years to come. Highly recommended!",
-      name: "-Mark S",
+     title: "-Mark S",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -134,7 +134,7 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
       testimonial:
         "I've worked with several furniture makers in the past, but OnyEze One is by far the most professional and reliable. Their communication, timelines, and finished product were all impeccable",
-      name: "-Rachel T",
+     title: "-Rachel T",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -142,7 +142,7 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
       testimonial:
         "I commissioned OnyEze One to create a custom wooden headboard for my bedroom. The result is a stunning piece of art that I'll treasure for years to come. Highly recommended!",
-      name: "-James D",
+     title: "-James D",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -150,7 +150,7 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
       testimonial:
         "I commissioned OnyEze One to create a custom wooden headboard for my bedroom. The result is a stunning piece of art that I'll treasure for years to come. Highly recommended!",
-      name: "-Karen W",
+     title: "-Karen W",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -161,7 +161,7 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
         id: 1,
         image: img1,
-      name: "Children's Storage Case Bed",
+     title: "Children's Storage Case Bed",
       description: "Designed to provide ample storage and a cozy sleeping area, this bed is perfect for kids' bedrooms, nurseries, and playrooms.",
 
        
@@ -169,7 +169,7 @@ import icon8 from '../assets/icons/wardrobe.png'
     {
         id: 2,
      image: img2,
-      name: "Children's Storage Case Bed",
+     title: "Children's Storage Case Bed",
       description:
         "Designed to provide ample storage and a cozy sleeping area, this bed is perfect for kids' bedrooms, nurseries, and playrooms.",
       
@@ -177,249 +177,249 @@ import icon8 from '../assets/icons/wardrobe.png'
     // {
     //     id: 3,
     //     image: img3,
-    //   name: "Accent Chair",
+    //  title: "Accent Chair",
     //   description:
     //     "A stylish chair designed to add a pop of color and texture to a room.",
     // },
     // {
     //     id: 4,
     //     image: img4,
-    //   name: "Bar Stool",
+    //  title: "Bar Stool",
     //   description:
     //     "A high stool designed for seating at a bar or counter.",
     // },
     // {
     //     id: 5,
     //     image: img5,
-    //   name: "",
+    //  title: "",
     //   description: " A long, low seat designed for multiple people to sit on",
     // },
     {
         id: 6,
         image: img6,
-      name: "Wine Cabinet",
+     title: "Wine Cabinet",
       description:
         " Designed to provide a sophisticated and temperature-controlled environment for your prized wine collection, this cabinet is perfect for wine enthusiasts and connoisseurs",
     },
     {
         id: 7,
         image: img7,
-      name: "Padding Bed",
+     title: "Padding Bed",
       description:
         "Experience the ultimate in comfort and support with our padding bed. Designed to provide a restful and rejuvenating sleep experience, this bed features a thick layer of padding that cradles your body and promotes a deep and restful sleep.",
     },
     {
         id: 8,
         image: img8,
-      name: "T-Profile Door",
+     title: "T-Profile Door",
       description:
         "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 9,
         image: img9,
-      name: "T-Profile Door",
+     title: "T-Profile Door",
       description:
         "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 10,
         image: img10,
-      name: "Media Console",
+     title: "Media Console",
       description:
         "A cabinet or shelving unit designed for storing and displaying media devices, such as TVs, soundbars, and gaming consoles.",
     },
     {
         id: 11,
         image: img11,
-      name: "Media Console",
+     title: "Media Console",
       description:
         "A cabinet or shelving unit designed for storing and displaying media devices, such as TVs, soundbars, and gaming consoles.",
     },
     {
         id: 12,
         image: img12,
-      name: "T-Profile Door",
+     title: "T-Profile Door",
       description:
         "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 13,
         image: img13,
-      name: "T-Profile Door",
+     title: "T-Profile Door",
       description:
         "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 14,
         image: img14,
-      name: "T-Profile Door",
+     title: "T-Profile Door",
       description:
         "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 15,
         image: img15,
-      name: "T-Profile Door",
+     title: "T-Profile Door",
       description:
         "This sleek and modern door features a robust T-shaped profile, expertly crafted to provide exceptional strength and stability.",
     },
     {
         id: 16,
         image: img16,
-      name: "Door",
+     title: "Door",
       description:
         "With a durable finish and easy-to-clean design, this door requires minimal upkeep, ensuring it remains looking its best for years to come.",
     },
     {
         id: 17,
         image: img17,
-      name: "Kitchen Cabinet",
+     title: "Kitchen Cabinet",
       description:
         "Crafted with precision and attention to detail, our kitchen cabinets are designed to transform your culinary space into a warm and inviting hub of activity.",
     },
     {
         id: 18,
         image: img18,
-      name: "TV Stand",
+     title: "TV Stand",
       description:
         "  Crafted with precision and attention to detail, our TV stands are designed to enhance your viewing experience and add a touch of sophistication to your living room.",
     },
     {
         id: 19,
         image: img19,
-      name: "Floated Panel",
+     title: "Floated Panel",
       description:
         "Floated panel constructing",
     },
     {
         id: 20,
         image: img20,
-      name: "Floated Panel",
+     title: "Floated Panel",
       description:
         "Floated panel for padding bed",
     },
     {
         id: 21,
         image: img21,
-      name: "HDF Bed Frame",
+     title: "HDF Bed Frame",
       description:
         "Crafted from high-density fiberboard (HDF), this bed frame is designed to provide a sturdy and long-lasting sleeping solution.",
     },
     {
         id: 22,
         image: img22,
-      name: "Padding Bed",
+     title: "Padding Bed",
       description:
         "Experience the ultimate in comfort and support with our padding bed. Designed to provide a restful and rejuvenating sleep experience, this bed features a thick layer of padding that cradles your body and promotes a deep and restful sleep.",
     },
     {
         id: 23,
         image: img23,
-      name: "King-Size Bed",
+     title: "King-Size Bed",
       description:
         "A large bed designed for two people, typically measuring 76 inches wide and 80 inches long.",
     },
     {
         id: 24,
         image: img24,
-      name: "Padding Bed",
+     title: "Padding Bed",
       description:
         "Our padding bed is easy to clean and maintain, ensuring a healthy and hygienic sleep environment.",
     },
     {
         id: 25,
         image: img25,
-      name: "Padding Bed",
+     title: "Padding Bed",
       description:
         " Our padding bed is easy to clean and maintain, ensuring a healthy and hygienic sleep environment.",
     },
     {
         id: 26,
         image: img26,
-      name: "HDF Bed Frame",
+     title: "HDF Bed Frame",
       description:
         "Crafted from high-density fiberboard (HDF), this bed frame is designed to provide a sturdy and long-lasting sleeping solution.",
     },
     {
         id: 27,
         image: img27,
-      name: "HDF Flush Door",
+     title: "HDF Flush Door",
       description:
         "Experience the perfect blend of style, durability, and affordability with our HDF flush door. Crafted from high-density fiberboard (HDF), this door is designed to provide a sleek and modern look that complements any interior décor.",
     },
     {
         id: 28,
         image: img28,
-      name: "Mini Kitchen Cabinet",
+     title: "Mini Kitchen Cabinet",
       description:
         "Experience the perfect blend of style, functionality, and compactness with our mini kitchen cabinet. Designed to provide ample storage and counter space in small kitchens, this cabinet is ideal for apartments, condos, and tiny homes.",
     },
     {
         id: 29,
         image: img29,
-      name: "Laptop Pull-Out Pit Stand",
+     title: "Laptop Pull-Out Pit Stand",
       description:
         "Experience the ultimate in comfort and productivity with our innovative laptop pull-out pit stand. Designed to provide a comfortable and ergonomic working experience, this stand is perfect for home offices, studios, and workplaces.",
     },
     {
         id: 30,
         image: img30,
-      name: "Reception Table",
+     title: "Reception Table",
       description:
         "Create a lasting impression on your clients and visitors with our stunning reception table. Designed to provide a warm and welcoming atmosphere, this table is perfect for reception areas, lobbies, and waiting rooms.",
     },
     {
         id: 31,
         image: img31,
-      name: "Reception Table",
+     title: "Reception Table",
       description:
         "Create a lasting impression on your clients and visitors with our stunning reception table. Designed to provide a warm and welcoming atmosphere, this table is perfect for reception areas, lobbies, and waiting rooms.",
     },
     {
         id: 32,
         image: img32,
-      name: "Floated Panel",
+     title: "Floated Panel",
       description:
         "Add a touch of sophistication and elegance to your space with our floated panel. Designed to provide a sleek and modern look, this panel is perfect for creating a unique and stylish feature wall.",
     },
     {
         id: 33,
         image: img33,
-      name: "Pillar Design",
+     title: "Pillar Design",
       description:
         "Add a touch of classic elegance to your space with our stunning pillar design. Inspired by ancient architectural elements, this pillar is perfect for creating a dramatic entrance, defining different areas of a room, or simply adding a decorative touch.",
     },
     {
         id: 34,
         image: img34,
-      name: "Classic Design",
+     title: "Classic Design",
       description: "Timeless and sophisticated design that complements any interior style.",
     },
     {
         id: 35,
         image: img35,
-      name: "Jewelry Cabinet",
+     title: "Jewelry Cabinet",
       description: "Keep your treasured jewelry collection organized, safe, and beautifully displayed with our exquisite jewelry cabinet. Designed to provide ample storage and a touch of elegance, this cabinet is perfect for jewelry enthusiasts and collectors.",
     },
     // {
     //     id: 36,
     //     image: img36,
-    //   name: "Sofa Bed",
+    //  title: "Sofa Bed",
     //   description:
     //     " A sofa designed with a convertible bed, ideal for small spaces or guest rooms.",
     // },
     // {
     //     id: 37,
     //     image: img37,
-    //   name: "Storage Bed",
+    //  title: "Storage Bed",
     //   description:
     //     "A bed designed with built-in storage drawers, shelves, or cabinets for maximizing space.",
     // },
     {
         id: 38,
         image: img38,
-      name: "Children's Storage Case Bed",
+     title: "Children's Storage Case Bed",
       description:
         " Designed to provide ample storage and a cozy sleeping area, this bed is perfect for kids' bedrooms, nurseries, and playrooms.",
     },

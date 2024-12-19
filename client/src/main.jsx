@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './components/Hero.css'
 import './pages/about.css'
 import './pages/contact.css'
+import './pages/Admin.css'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>

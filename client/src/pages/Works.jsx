@@ -1,10 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { styles } from '../styles'
 import { projects } from '../constants'
 import { motion } from 'framer-motion'
+import { getProducts } from '../admin/AdimAPI'
 
 
 const Works = () => {
+  const [works, setWorks] = useState([]);
+
+  useEffect(()=>{
+    const fetchProducts = async () => {
+      try {
+        const data = await getProducts();
+        // console.log(data.Allworks)
+        setWorks(data.Allworks);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+  fetchProducts();
+  },[])
+  
+      const combinedWorks = works.concat(projects);
   return (
     <>
     <section className='flex flex-col justify-center items-center h-60 about'>
@@ -18,7 +35,7 @@ const Works = () => {
 
         <div className='w-full md:grid grid-cols-4 px-0 gap-y-12 sm:px-0'>
             {
-                projects.map((item,index)=>(
+                combinedWorks.map((item)=>(
                     
                     <div className='py-3 m-6 border black-gradient rounded-3xl shadow-[#915eff] shadow-xl z-10'>
                         <motion.div
@@ -26,11 +43,12 @@ const Works = () => {
                         whileInView={{ opacity: 1, x: 0,
                           scale: 1.1,
                          transition:{duration: 2} }}
-                         key={index}
+                         key={item.id}
                          className='flex flex-col justify-center items-center p-6'
                         >
                         <img className='w-full md:w-2/3 rounded-xl' src={item.image} alt="" />
-                        <p className='font-semibold orange-text-gradient'>{item.name}</p>
+                        <img className='w-full md:w-2/3 rounded-xl' src={`http://localhost:3000/${item.image}`} alt="" />
+                        <p className='font-semibold orange-text-gradient'>{item.title}</p>
                         <p className='text-xs green-text-gradient'>{item.description}</p>
                     </motion.div>
                     </div>

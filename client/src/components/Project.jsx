@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { projects } from '../constants'
 import { styles } from '../styles';
 import { useNavigate } from 'react-router-dom';
 import {motion} from 'framer-motion'
+import { getProducts } from '../admin/AdimAPI';
 
 
 const MyProject = () => {
@@ -10,6 +11,24 @@ const MyProject = () => {
 
 const navigate = useNavigate();
     const [isLoading, setIsLoading] = useState(false);
+    const [works, setWorks] = useState([]);
+
+
+useEffect(()=>{
+  const fetchProducts = async () => {
+    try {
+      const data = await getProducts();
+      // console.log(data.Allworks)
+      setWorks(data.Allworks);
+    } catch (error) {
+      console.error("Error fetching products:", error);
+    }
+  };
+fetchProducts();
+},[])
+
+    const combinedWorks = works.concat(projects);
+// console.log(combinedWorks)
 
     const handleClick = () => {
         setIsLoading(true);
@@ -29,20 +48,20 @@ const navigate = useNavigate();
 
         <div className='w-full lg:grid grid-cols-4 px-0 gap-y-12'>
             {
-                projects.slice(0,10).map((item,index)=>(
+                combinedWorks.slice(0,10).map((item)=>(
                   
                   
-                  <div className='p-6 py-8 m-6 border black-gradient rounded-3xl shadow-[#915eff] shadow-xl z-10'>
+                  <div className='p-6 py-8 m-6 border black-gradient rounded-3xl shadow-[#915eff] shadow-xl z-10'  key={item.id}>
                       <motion.div
                       initial={{ opacity: 0, x: 50}}
                       whileInView={{ opacity: 1, x: 0,
                         scale: 1.1,
                        transition:{duration: 2} }}
-                       key={index}
                        className='flex flex-col md:py-8 justify-center items-center'
                       >
                         <img className='w-full md:w-2/3 rounded-xl' src={item.image} alt="" />
-                        <p className='font-semibold orange-text-gradient'>{item.name}</p>
+                        <img className='w-full md:w-2/3 rounded-xl' src={`http://localhost:3000/${item.image}`} alt="" />
+                        <p className='font-semibold orange-text-gradient'>{item.title}</p>
                         <p className='text-xs md:px-4 green-text-gradient text-center'>{item.description}</p>
                   </motion.div>
                     </div>

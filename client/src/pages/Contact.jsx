@@ -3,6 +3,7 @@ import { styles } from '../styles'
 import { FaEnvelopeOpen, FaMapLocation, FaPhone } from 'react-icons/fa6'
 import img2 from '../assets/image.png'
 import emailjs from 'emailjs-com'
+import { toast } from 'react-toastify'
 
 
 const Contact = () => {
@@ -37,7 +38,7 @@ const sendEmail = (e) => {
     )
     .then(
       (result) => {
-        alert("Message sent successfully!");
+        toast.success("Message sent successfully!");
         console.log(result)
         setLoading(false);
         // form.current.reset();
@@ -46,7 +47,7 @@ const sendEmail = (e) => {
         setMessage('');
       },
       (error) => {
-        alert("Failed to send message.");
+        toast.error("Failed to send message.");
         console.log(error)
         setLoading(false);
       }
@@ -121,7 +122,7 @@ const sendEmail = (e) => {
 
   </div>
  </section>
-  <div ><iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=4%20tomato%20market,%20opposite%20first%20bank,%20dei-dei,%20Abuja,%20FCT,%20Nigeria+(OnyEze%20One%20Furniture)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe></div>
+  <div ><iframe width="100%" height="450" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=4%20tomato%20market,%20opposite%20first%20bank,%20dei-dei,%20Abuja,%20FCT,%20Nigeria+(OnyEze%20One%20Furniture)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe></div>
 
     </>
   )

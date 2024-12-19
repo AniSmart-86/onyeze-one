@@ -4,6 +4,7 @@ import img2 from '../assets/image.png'
 import {styles} from '../styles'
 import emailjs from 'emailjs-com'
 import { useState } from 'react'
+import { toast } from 'react-toastify'
 
 const Intouch = () => {
 
@@ -38,7 +39,7 @@ const sendEmail = (e) => {
     )
     .then(
       (result) => {
-        alert("Message sent successfully!");
+        toast.success("Message sent successfully!");
         console.log(result)
         setLoading(false);
         // form.current.reset();
@@ -47,7 +48,7 @@ const sendEmail = (e) => {
         setMessage('');
       },
       (error) => {
-        alert("Failed to send message.");
+        toast.error("Failed to send message.");
         console.log(error)
         setLoading(false);
       }
@@ -62,8 +63,8 @@ const sendEmail = (e) => {
 
 
   return (
- <div className='mt-20 p-10 flex flex-col justify-center'>
-  <div className="md:flex flex-col justify-center items-center pt-10 violet-gradient rounded-3xl">
+ <div className='mt-20 p-10'>
+  <div className="w-full pt-10 violet-gradient rounded-3xl">
     <h1 className={`${styles.sectionHeadText} text-center`}>Let's <span className='text-orange-600'>Connect</span></h1>
     <p className={`${styles.sectionSubText} text-center`}>Send a Message</p>
 
