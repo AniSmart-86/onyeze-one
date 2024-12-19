@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://onyeze-one.onrender.com'],
+    origin: ['https://onyeze-one.onrender.com', 'http://localhost:5173'],
     credentials: true,
     methods: ['GET', 'HEAD', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['content-Type', 'AUthorization'],
