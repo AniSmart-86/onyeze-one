@@ -24,11 +24,8 @@ if(token){
             
             const {data} = await axios.post('https://onyeze-one-api.onrender.com/api/admin/login', {email, password});
 
-           
-
             if(data.success){
-                
-                console.log(data.token)
+                // console.log(data.token)
                 localStorage.setItem('token', data.token);
                 setToken(data.token);
               
