@@ -63,8 +63,8 @@ const sendEmail = (e) => {
 
 
   return (
- <div className='mt-20 p-10'>
-  <div className="w-full pt-10 violet-gradient rounded-3xl">
+ <div className='mt-20 p-10 flex flex-col justify-center'>
+  <div className="md:flex flex-col justify-center items-center pt-10 violet-gradient rounded-3xl">
     <h1 className={`${styles.sectionHeadText} text-center`}>Let's <span className='text-orange-600'>Connect</span></h1>
     <p className={`${styles.sectionSubText} text-center`}>Send a Message</p>
 

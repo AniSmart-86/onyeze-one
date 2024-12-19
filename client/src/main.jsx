@@ -7,6 +7,7 @@ import './components/Hero.css'
 import './pages/about.css'
 import './pages/contact.css'
 import './pages/Admin.css'
+import './components/slide.css'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
