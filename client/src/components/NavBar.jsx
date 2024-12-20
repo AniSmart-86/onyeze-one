@@ -11,10 +11,10 @@ const NavBar = () => {
   const [showMenu,setShowMenu] = useState(false)
   return (
     <>
-    <header className={`${styles.paddingX} flex justify-between items-center fixed top-0 right-0 left-0 h-auto py-2 z-50 violet-gradient backdrop-blur-md text-white`}>
+    <header className={`${styles.paddingX} flex justify-between items-center fixed top-0 right-0 left-0 h py-2 z-50 violet-gradient backdrop-blur-lg text-white rounded-b-xl`}>
         <div className='flex justify-center items-center'>
     {
-        !Token ? ( <span> <img onClick={()=>{navigate("/"); scrollTo(0,0)}} className='w-12 rounded-t-full h-11' src={logo} alt="Onyeze logo" />  <h1 className='text-xs mx-1 font-medium font-mono'>
+        !Token ? ( <span className='flex justify-center items-center'> <img onClick={()=>{navigate("/"); scrollTo(0,0)}} className='w-12 rounded-t-full h-11' src={logo} alt="Onyeze logo" />  <h1 className='text-xs mx-1 font-medium font-mono'>
             OnyEze
      <span className='text-orange-600'>Furniture</span>   
         </h1> </span>)

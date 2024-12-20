@@ -18,12 +18,12 @@ const Admin = () => {
     const navigate = useNavigate();
   
   
-    const Token = localStorage.getItem('token');
+    const [newToken, setNewToken ] = useState(localStorage.getItem('token') ? localStorage.getItem('token') : false); 
     useEffect(()=>{
-  if(!Token){
+  if(!newToken){
     navigate('/login') 
   }
-  },[Token]);
+  },[newToken]);
 
 
     const toggleContent =()=>{
@@ -71,19 +71,27 @@ const Admin = () => {
           console.error("Error deleting work:", error);
         }
       };
+
+      const logout = ()=>{
+        setNewToken(false);
+        localStorage.removeItem('token')
+       
+    }
       
   return (
-    <div className='black-gradient py-24 admin pl-[10%]'>
-        <div className={`fixed top-10 left-0 h-[100vh] green-pink-gradient z-50 ${ sideBar? 'w-44' : 'w-10' }`}>
+    <div className='black-gradient py-24 admin pl-[3%] pr-[8%]'>
+       
+        <div className={`fixed top-10 left-0 h-[100vh] green-pink-gradient z-50 border-x-2 border-gray-800 rounded-md ${ sideBar? 'w-44 transition-all duration-700 ease-in-out opacity-75' : 'w-8 opacity-30 transition-all duration-700 ease-in-out' }`}>
     
         <div className='flex flex-col justify-center items-center mt-10 text-white'>
             {
                 sideBar? <FaX onClick={()=> setSideBar(false)} size='24' className=' mb-24 flex justify-self-end items-end cursor-pointer' /> : <FaArrowRightLong onClick={()=> setSideBar(true)} size='24'  className='mb-24 flex justify-self-end items-end cursor-pointer' />
             }
            
-            <p onClick={toggleContent} className={`font-medium py-4 hover:bg-gray-100 hover:text-tertiary px-8 cursor-pointer ${sideBar? '' : 'hidden' }`}>Add Work</p>
+            <p onClick={toggleContent} className={`font-medium py-2 my-3 rounded-xl bg-gray-100 text-tertiary px-8 cursor-pointer ${sideBar? '' : 'hidden' }`}>Add Work</p>
 
-            <p onClick={toggleContent} className={`font-medium py-4 hover:bg-gray-100 hover:text-tertiary px-5 cursor-pointer ${sideBar? '' : 'hidden'}`}>Display Works</p>
+            <p onClick={toggleContent} className={`font-medium py-2 rounded-xl bg-gray-100 text-tertiary px-5 cursor-pointer ${sideBar? '' : 'hidden'}`}>Display Works</p>
+            <button onClick={logout} className={`font-medium py-2 mt-14 rounded-full bg-red-400 text-white-100 px-10 cursor-pointer ${sideBar? '' : 'hidden'}`}>Logout</button>
         </div>
         </div>
 

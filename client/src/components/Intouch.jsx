@@ -42,7 +42,7 @@ const sendEmail = (e) => {
         toast.success("Message sent successfully!");
         console.log(result)
         setLoading(false);
-        // form.current.reset();
+        form.current.reset();
         setEmail('');
         setName('')
         setMessage('');
@@ -103,7 +103,7 @@ const sendEmail = (e) => {
       <div className=''>
       <form ref={form} onSubmit={sendEmail} className='flex flex-col items-center bg-white-100 text-black h-auto p-10 rounded-3xl' action="">
 
-        <h2 className='font-bold text-xl py-1'>Send Us A Message</h2>
+        <h2 className='font-bold text-md'>Send Us A Message</h2>
         <p className='text-sm text-gray-400 mb-2'>What do you have for us today??</p>
 
         <input className='bg-transparent border border-spacing-10 border-green-500 outline-none p-2 md:w-full rounded-xl' type="text" name='user_name' placeholder='Name' required value={name} onChange={(e)=>setName(e.target.value)}/>
